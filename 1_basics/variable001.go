@@ -33,6 +33,17 @@ func main() {
 	g, h := 20, 30
 	fmt.Println("g * h =", g*h)
 
+	// Defining a constant
+	const x = "Hello World"
+	fmt.Println(x)
+
+	// just another multivariable assignment
+	var (
+		q = 2
+		w = 3
+	)
+	q = q + w
+
 	/* conclusion
 	1. use var [name] [type] to decalre to default value
 	2. use [name] := value to declare with value
